@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible21
+  description: create-a-vm
+  annotations:
+    backstage.io/kubernetes-id: ansible21
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/ansible21
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
